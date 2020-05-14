@@ -58,5 +58,5 @@ class CashRegister
     @total = @total - @@last_item_price
     
   end
-  binding.pry     
+      
 end
