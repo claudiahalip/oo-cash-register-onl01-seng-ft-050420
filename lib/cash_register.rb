@@ -24,7 +24,7 @@ class CashRegister
     
     
     quantity.times { @items << title }
-    @@last_items_price = price
+    @@last_item_price = price
     price_items = price.to_f * quantity.to_i
     @total = @total + price_items
     
